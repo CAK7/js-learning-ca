@@ -29,3 +29,28 @@ const myFunc = function(){
 }
 
 console.log([nums, typeof nums, myObj, typeof myObj,myFunc, typeof myFunc]);
+
+//// ---------------------------------------------------------------------////
+////   ------------------------ Memories ---------------------------------////
+
+//// Stack(Premitive) , Heap(Non-Premitive)
+
+/// Stack Example - A copy created and change made in copy not in referance
+let Post1 = "SofteWareDeveloper"
+let Post2 = Post1
+Post2 = "Tester"
+
+console.table([Post1,Post2]);
+
+// Referance : Change Made in Referance No copy
+
+let Obj1 = {
+    id : "1",
+    name : "Chaitanya"
+
+}
+
+let obj2 =  Obj1
+obj2.name = "Rohan"
+
+console.table([Obj1,obj2])  // Both Objects value got Changed
