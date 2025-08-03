@@ -48,4 +48,7 @@ console.log(Object.keys(myObj));
 console.log(Object.values(myObj));
 console.log(Object.entries(myObj));
 
+//// How to check key if not sure
+console.log(myObj.hasOwnProperty('innerObj'));
+
 
