@@ -3,6 +3,7 @@
 
 //// Singleton  - Only By Constructors
 //Objects.create
+//const myObj = new Object()
 
 
 /// Object Literals   -  key:value
